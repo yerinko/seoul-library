@@ -1,6 +1,6 @@
-# 강동숲속도서관 도서 검색 서비스
+# 도서 검색 서비스
 
-강동구 도서관의 도서를 검색하고 소장/대출 정보를 확인할 수 있는 웹 서비스입니다.
+도서관의 도서를 검색하고 소장/대출 정보를 확인할 수 있는 웹 서비스입니다.
 
 ## 주요 기능
 
@@ -17,6 +17,11 @@
 - Vite
 - Axios
 - Lottie Animations
+
+## API
+
+- 도서관 정보나루 API - https://www.data4library.kr/
+
 
 ## 프로젝트 구조
 
@@ -37,24 +42,18 @@ src/
 
 ## 시작하기
 
-1. 저장소 클론
-```bash
-git clone https://github.com/your-username/gangdong-library.git
-cd gangdong-library
-```
-
-2. 의존성 설치
+1. 의존성 설치
 ```bash
 npm install
 ```
 
-3. 환경 변수 설정
+2. 환경 변수 설정
 `.env.example` 파일을 복사하여 `.env` 파일을 생성하고 필요한 값을 설정합니다.
 ```bash
 cp .env.example .env
 ```
 
-4. 개발 서버 실행
+3. 개발 서버 실행
 ```bash
 npm run dev
 ```
